@@ -1,0 +1,143 @@
+<DB>
+<Element>
+      <Key>
+        TestExecutive
+      </Key>
+      <Name>
+        TestExecutive.h
+      </Name>
+      <Description>
+        Demonstrate Requirement
+      </Description>
+      <Category>
+        NoSqlDB
+      </Category>
+      <Children>
+        <Child>
+          DBAccess
+        </Child>
+      </Children>
+      <Data>
+        Entry Point
+      </Data>
+    </Element>
+    <Element>
+      <Key>
+        DBAccess
+      </Key>
+      <Name>
+        DBAccess.h
+      </Name>
+      <Description>
+        db handler
+      </Description>
+      <Category>
+        NoSqlDB
+      </Category>
+      <Children>
+        <Child>
+          NoSqlDb
+        </Child>
+      </Children>
+      <Data>
+        data string
+      </Data>
+    </Element>
+    <Element>
+      <Key>
+        NoSqlDB
+      </Key>
+      <Name>
+        NoSqlDB.h
+      </Name>
+      <Description>
+        db functions
+      </Description>
+      <Category>
+        NosqlDB
+      </Category>
+      <Children>
+	  <Child>
+          Convert
+        </Child>
+		<Child>
+          CppProperties
+        </Child>
+		<Child>
+          XmlDocument
+        </Child>
+		<Child>
+          XmlElement
+        </Child>
+      </Children>
+      <Data>
+        In memory keyValue pair
+      </Data>
+    </Element>
+    <Element>
+      <Key>
+        Convert
+      </Key>
+      <Name>
+        Convert.h
+      </Name>
+      <Description>
+        Convert data types
+      </Description>
+      <Category>
+        NoSqlDb
+      </Category>
+      <Children>
+	  <Child>
+          Child Absent
+        </Child>
+      </Children>
+      <Data>
+        Type conversion
+      </Data>
+    </Element>
+    <Element>
+      <Key>
+        CppProperties
+      </Key>
+      <Name>
+        CppProperties.h
+      </Name>
+      <Description>
+        Provides Property accessors
+      </Description>
+      <Category>
+        NoSqlDb
+      </Category>
+      <Children>
+	  <Child>
+          Child Absent
+        </Child>
+      </Children>
+      <Data>
+        Defines Properties
+      </Data>
+    </Element>
+	<Element>
+      <Key>
+        XmlDocument
+      </Key>
+      <Name>
+        XmlDocument.h
+      </Name>
+      <Description>
+        XML building and parsing
+      </Description>
+      <Category>
+        NoSqlDb
+      </Category>
+      <Children>
+	  <Child>
+          Child Absent
+        </Child>
+      </Children>
+      <Data>
+        Serialization and Deserialization
+      </Data>
+    </Element>
+  </DB>
